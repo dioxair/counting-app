@@ -12,3 +12,56 @@ body {
   text-align: center;
 }
 
+/* haha, button styling go brrrr */
+
+#increase-button {
+  background-color: #3d573f;
+}
+
+#decrease-button span:after {
+  content: "\2193";
+  background-color: #802424;
+}
+
+#decrease-button {
+  background-color: #802424;
+}
+
+.button {
+	  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     border-radius: 10px;
+     background-color: #FFF;
+     border: none;
+     color: #b09e99;
+     text-align: center;
+     font-size: 25px;
+     padding: 15px;
+     width: 200px;
+     transition: all 1s;
+     cursor: pointer;
+     margin: 5px;
+     text-align: center;
+}
+
+ .button span {
+     cursor: pointer;
+     display: inline-block;
+     position: relative;
+     transition: 0.5s;
+}
+ .button span:after {
+     content: '\2191';
+     position: absolute;
+     opacity: 0;
+     top: 0;
+     right: -20px;
+     transition: 0.5s;
+}
+ .button:hover span {
+     padding-right: 25px;
+}
+ .button:hover span:after {
+     opacity: 1;
+     right: 0;
+}
+
