@@ -1,0 +1,14 @@
+html {
+  height: 100%;
+  display: flex;
+}
+
+body {
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #181620;
+  perspective: 500px;
+  color: #b09e99;
+  text-align: center;
+}
+
