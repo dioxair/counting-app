@@ -8,6 +8,7 @@ Reflect that change on the page by changing the number in the HTML document via 
 For decreasing:
 Listen for interaction (clicks) on the decrease button
 Decrease the counter variable by 1 each time it's clicked
+Make sure the count doesn't go below 0
 Reflect that change on the page by changing the number in the HTML document via getElementById
 
 For saving:
