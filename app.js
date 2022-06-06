@@ -11,6 +11,11 @@ Decrease the counter variable by 1 each time it's clicked
 Make sure the count doesn't go below 0
 Reflect that change on the page by changing the number in the HTML document via getElementById
 
+For resetting:
+Listen for interaction (clicks) on the reset button
+Set the counter variable to 0
+Reflect that change on the page by resetting the number in the HTML document through document.getElementById
+
 For saving:
 
 Create a variable called "blob" that will contain the counter number and will be plain text
@@ -30,6 +35,11 @@ function decreaseButton() {
   if (counter > 0) {
     counter = counter - 1
   }
+  document.getElementById("counter").innerText = counter
+}
+
+function resetButton() {
+  counter = 0
   document.getElementById("counter").innerText = counter
 }
 
