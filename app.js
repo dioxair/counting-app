@@ -27,13 +27,13 @@ Put it inside a function called "saveCount()"
 let counter = 0
 
 function increaseButton() {
-  counter = counter + 1
+  counter += 1
   document.getElementById("counter").innerText = counter
 }
 
 function decreaseButton() {
   if (counter > 0) {
-    counter = counter - 1
+    counter -= 1
   }
   document.getElementById("counter").innerText = counter
 }
